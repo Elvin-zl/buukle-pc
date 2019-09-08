@@ -11,12 +11,12 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 import org.springframework.web.servlet.ModelAndView;
 import top.buukle.common.call.FuzzyResponse;
-import top.buukle.pc.service.BaseService;
 import top.buukle.security.entity.Role;
 import top.buukle.security.entity.constants.MenuEnums;
 import top.buukle.security.entity.vo.MenuTreeNode;
 import top.buukle.security.plugin.util.SessionUtil;
 import top.buukle.util.JsonUtil;
+import top.buukle.util.mvc.BaseService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
