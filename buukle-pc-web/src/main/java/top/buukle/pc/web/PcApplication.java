@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ApplicationContext;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
-@MapperScan({"top.buukle.pc.dao","top.buukle.util.mvc"})
+@MapperScan({"top.buukle.pc.dao","top.buukle.common.mvc"})
 @SpringBootApplication(scanBasePackages={"top.buukle.*"})
 @EnableFeignClients(basePackages = {"top.buukle.*"})
 @EnableRedisHttpSession
